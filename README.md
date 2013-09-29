@@ -1,23 +1,21 @@
-opifex
-======
+Opifex.Logger
+=============
 
-Opifex is a coffeescript module for doing useful work.
+Logs messages to the console
 
 Usage
 -----
 
 First write a script like:
 
-	Opifex = require 'Opifex'
-	Opifex('amqp://user:password@host:port/domain/exchange/queue/key')
-		.facit = (command) ->
-			console.log "Got command #{command}"
+	Logger = require 'Opifex.Logger'
+	Logger('amqp://user:password@host:port/domain/exchange/queue/key')
 
 And then on the given host send to the appropriate vhost on the given exchange a message:
 
-	[ "facit", "some command" ]
+	[ "log", "some message" ]
 
-And it will log "Got command some command" to the console!
+And it will log "some message" to the console!
 
 
 
