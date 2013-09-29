@@ -1,6 +1,6 @@
 {
 	"author": "David Goehrig",
-	"name": "Opifex.Logger",
+	"name": "opifex.logger",
 	"license" : "MIT",
 	"description": "Logs to the console things sent via AMQP",
 	"version": "0.0.1",
@@ -10,7 +10,7 @@
 	"main": "./lib/Logger.coffee",
 	"bin": {},
 	"dependencies": {
-		"Opifex" : "latest"
+		"opifex" : "0.0.2"
 	},
 	"devDependencies": {},
 	"optionalDependencies": {},
