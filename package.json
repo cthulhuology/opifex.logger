@@ -1,0 +1,22 @@
+{
+	"author": "David Goehrig",
+	"name": "Opifex.Logger",
+	"license" : "MIT",
+	"description": "Logs to the console things sent via AMQP",
+	"version": "0.0.1",
+	"repository": {
+		"url": "http://github.com/cthulhuology/opifex.logger"
+	},
+	"main": "./lib/Logger.coffee",
+	"bin": {},
+	"dependencies": {
+		"Opifex" : "latest"
+	},
+	"devDependencies": {},
+	"optionalDependencies": {},
+	"engines": {
+		"node": "*",
+		"coffee": "*"
+	}
+}
+
